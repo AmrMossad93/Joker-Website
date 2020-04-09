@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Joker Website",
   "main": "index.js",
+  "homepage": "https://amrmossad93.github.io/Joker-Website/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d Dist"
   },
   "author": "AmrMossad",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
